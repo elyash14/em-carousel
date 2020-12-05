@@ -3,14 +3,27 @@
   "version": "1.0.0",
   "description": "Responsive React Carousel",
   "main": "src/index.ts",
+  "files": [
+    "lib/**/*"
+  ],
   "repository": "git@github.com:elyash14/em-carousel.git",
   "author": "elyash14 <elyas.mosayebi@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json"
   },
   "devDependencies": {
+    "prettier": "^2.2.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.1.2"
   },
-  "keywords":["React", "Responsive", "Carousel", "Style-Component"]
+  "keywords": [
+    "React",
+    "Responsive",
+    "Carousel",
+    "Style-Component"
+  ]
 }
