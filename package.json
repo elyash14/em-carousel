@@ -1,0 +1,16 @@
+{
+  "name": "em-react-carousel",
+  "version": "1.0.0",
+  "description": "Responsive React Carousel",
+  "main": "src/index.ts",
+  "repository": "git@github.com:elyash14/em-carousel.git",
+  "author": "elyash14 <elyas.mosayebi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  },
+  "keywords":["React", "Responsive", "Carousel", "Style-Component"]
+}
